@@ -1,0 +1,14 @@
+@mixin font($fontWeight, $fontSize, $lineHeight, $Color) {
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $Color;
+}
+
+@mixin responsib($brekpoint) {
+  @if$brekpoint==tablet {
+    @media screen and (max-width: 980px) {
+      @content;
+    }
+  }
+}

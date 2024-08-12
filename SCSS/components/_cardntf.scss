@@ -1,0 +1,64 @@
+.card__container {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  margin: 152px 0;
+  max-width: 350px;
+  background: #15263f;
+  border-radius: 15px;
+}
+.card__container-info {
+  padding: 24px 24px 32px 24px;
+}
+.card__desc {
+  margin-top: 2.4rem;
+}
+.card__link {
+  @include font(600, 2.2rem, 27px, #fff);
+}
+.card__link:hover {
+  color: #00fff8;
+}
+.card__subtitle {
+  @include font(300, 1.8rem, 26px, #8bacd9);
+  margin-top: 16px;
+}
+.card__eth-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__eth {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.eth {
+  @include font(600, 1.6rem, 20px, #00fff8);
+}
+.oclock {
+  @include font(400, 1.6rem, 20px, #8bacd9);
+}
+.card__line {
+  margin-top: 24px;
+  width: 302px;
+  background: #2e405a;
+  height: 1px;
+  //   border: none;
+}
+.wywern__info {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.wywern__title {
+  margin-left: 16px;
+  @include font(400, 16px, 20px, #8bacd9);
+}
+.wywern__link {
+  margin-left: 5px;
+  @include font(400, 16px, 20px, #fff);
+}
+.wywern__link:hover {
+  color: #00fff8;
+}
